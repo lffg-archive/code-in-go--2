@@ -20,7 +20,7 @@ func main() {
 
 	fmt.Println("==== Count Result ====")
 	for line, count := range counts {
-		fmt.Printf("%d - %s\n", count, line)
+		fmt.Printf("%d\t%s\n", count, line)
 	}
 }
 
