@@ -19,6 +19,7 @@ func main() {
 				panic(err)
 			}
 			countLines(file, counts)
+			file.Close()
 		}
 	}
 
